@@ -31,17 +31,22 @@ LastFix는 필요한 순간 빠르게 대응하는 개발 파트너입니다.
 ## Tech Stack
 
 **Frontend**  
-React · Next.js · TypeScript · Tailwind CSS · Storybook
+React · Next.js (App Router, SSR/SSG) · TypeScript · Tailwind CSS
 
-**State & Data**  
-Jotai · TanStack Query · Axios · React Hook Form
+**Data & Forms**  
+TanStack Query · Jotai · React Hook Form · Axios
 
-**Quality & Operations**  
-Sentry · Vercel · AWS Amplify · Jest · React Testing Library · MSW · 성능 최적화
+**Testing & Monitoring**  
+Jest · React Testing Library · MSW · Sentry
 
-**Backend & Integrations**  
-Node.js · SQL · Supabase · Cloudflare  
-결제 연동 · API 연동
+**Deployment**  
+AWS (S3 + CloudFront, 정적 배포 및 캐싱 전략) · Cloudflare Pages · GitHub Actions
+
+**Backend (Light)**  
+Node.js · SQL · REST API · Webhook · Auth (JWT/OAuth)
+
+**Integrations**  
+결제 연동 · 외부 API 연동
 
 ## Contact
 
